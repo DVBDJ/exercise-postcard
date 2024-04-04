@@ -22,7 +22,7 @@ p {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 400px;
+	width: 340px;
 	margin: 1px;
 }
 .postcard-body {
@@ -30,12 +30,18 @@ p {
 }
 .body-left,
 .body-right {
-	padding: 50px;
+	padding: 1px;
 }
 input {
 	border: none;
-	border-bottom: grey;
+	border-bottom: grey 1px solid;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+p {
+	font-size: medium;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .postcard-footer {
 	text-align: center;
 }
